@@ -17,7 +17,6 @@
 
 
 #container {
-    background-color: black;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -98,6 +97,7 @@
     color: var(--color-dark-900);
 }
 
+
 .input-field input {
     border: none;
     width: 260px;
@@ -144,12 +144,11 @@
     animation: light-to-dark 0.3s ease-in-out;
 }
 
-
 .dark#login_form .input-field input,
 .dark#login_form .input-field i {
     color: var(--color-light-50);
-
 }
+
 
 @keyframes dark-to-light {
     0% {
